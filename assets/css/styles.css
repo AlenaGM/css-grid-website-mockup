@@ -10,6 +10,7 @@ body {
 
 body._lock {
   overflow: hidden;
+  position: fixed;
 }
 
 /*-------MOBILE------------*/
@@ -30,7 +31,6 @@ body._lock {
   background-color: #e49a47;
   display: grid;
   align-items: center;
-  overflow: hidden;
   grid-template:
     minmax(60px, auto) 1fr / minmax(1rem, 1fr) minmax(auto, 70px) minmax(
       auto,
