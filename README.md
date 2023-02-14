@@ -1,6 +1,6 @@
 # CSS-Grid-Website-Mockup
 
-Basic CSS-Grid responsive website template
+A basic CSS-Grid responsive website template
 
 <br>
 <img width="45%" alt="screen capture" src="../master/assets/img/captureweb.jpeg">
