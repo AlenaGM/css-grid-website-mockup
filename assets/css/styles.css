@@ -341,7 +341,13 @@ body._lock {
   line-height: 40px;
   justify-self: start;
   background-color: #e49a47;
+  border: solid 2.5px #e49a47;
   padding: 0px 20px;
+}
+
+.products__button:hover {
+  background-color: transparent;
+  color: #e49a47;
 }
 
 .footer {
