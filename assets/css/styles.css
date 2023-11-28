@@ -6,6 +6,7 @@ body {
   background-color: #e5e5e5;
   font-family: "Montserrat", sans-serif;
   font-size: 20px;
+  transition: color 0.4s, background-color 0.4s;
 }
 
 body._lock {
@@ -60,6 +61,7 @@ body._lock {
   grid-area: header__menu;
   display: grid;
   align-content: center;
+  justify-items: end;
 }
 
 .menu__list {
@@ -76,10 +78,12 @@ body._lock {
   line-height: 17px;
   text-decoration: none;
   cursor: pointer;
+  margin-left: 2rem;
 }
 
 .menu__link:hover {
   color: #375561;
+  transition: color 0.4s;
 }
 
 .sidebar__link {
@@ -91,6 +95,7 @@ body._lock {
 .sidebar__link:hover {
   color: #e49a47;
   text-decoration: none;
+  transition: color 0.4s;
 }
 
 /*-------BURGER-MENU------------*/
@@ -348,6 +353,7 @@ body._lock {
 .products__button:hover {
   background-color: transparent;
   color: #e49a47;
+  transition: color 0.4s, background-color 0.4s;
 }
 
 .footer {
